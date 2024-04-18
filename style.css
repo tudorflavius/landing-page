@@ -681,6 +681,21 @@ nav label {
   line-height: 24px;
 }
 
+.image-stars-spans {
+  display: flex;
+  flex-direction: column;
+  margin-left: 14px;
+}
+
+.image-stars-spans > span:first-child {
+  color: var(--main-color);
+  font-weight: 600;
+}
+
+.image-stars-spans > span:nth-child(2) {
+  font-weight: 500;
+}
+
 /* -------------------------------------------------------section-9------------------------------------------------- */
 
 .section-9 {
