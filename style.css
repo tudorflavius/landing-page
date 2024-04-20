@@ -1003,7 +1003,21 @@ nav label {
 
   .last-section {
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    text-align: unset;
+    align-items: unset;
+  }
+
+  .last-section img {
+    padding-bottom: 85px;
+  }
+
+  .last-chat {
+    padding-left: 100px;
+  }
+
+  .legal-stuff {
+    padding-left: 80px;
   }
 
   .last-div {
